@@ -36,3 +36,10 @@ operadores logicos: sirve para combinar condiciones
 !   // NOT (negación) 
 */
 console.log(año_actual>año_nacimiento&&año_actual<2025)// 
+
+
+// ejemplo con uso de operadores aritmeticos y operadores logicos:
+// alejo quiere entrar a una disco donde le piden ser mayor y traer la cedula parea ingresar
+let edad=18;
+let Cedula=true;
+console.log('¿Alejo trajo cedula y tiene 18 o mas años?: ',edad>=18 && Cedula==true);
