@@ -49,3 +49,14 @@ Necesita escribir un programa en JavaScript que devuelva true si el valor de la
 variable hora no está entre las 9 y 17 horas*/
 var currentTime = 7;
 console.log(currentTime < 9 || currentTime > 17);
+
+//  uso del += : lo que hacer es sumar un valor a la variable ejemplo: 
+let num=1;
+num+=5;// se le añaden 5 numeros al valor de num
+console.log(num);
+
+// ejemplo con cadenas
+let text=' Hola, ';
+text+='gente de  github '// añade una nueva cadena o un nuevo valor 
+text+='¿como estan?'
+
