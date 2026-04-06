@@ -119,7 +119,17 @@ if (weather === "sunny" && temperature > 20) {
 }
 
 // ejercicio de condicionales 
+/* Simula un cajero automático.
 
+ Variables:
+ - saldo: dinero disponible
+ - retiro: dinero a retirar
+
+Reglas:
+ - Si retiro <= 0 → "Cantidad invalida"
+ - Si retiro > saldo → "Fondos insuficientes"
+ - Si retiro es múltiplo de 50 → "Retiro exitoso" y mostrar saldo restante
+ - Si no → "Solo puedes retirar multiplos de 50" */
 
 saldo = 1000;
 retiro = 1000;
